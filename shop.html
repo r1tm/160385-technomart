@@ -19,21 +19,18 @@
 		<div class="header-main">
 			<div class="container">
 				<div class="header-contacts-login">
-					<h2>Интернет-магазин строительных материалов и инструментов для ремонта</h2>
-					<div class="header-contacts">
-						<p>+7 (812) 555-05-55</p>
-						<p>г.Санкт-Петербург,ул.Б.Конюшенная,д19/8
-						</p>
+					<span class="pink-text">Интернет-магазин строительных материалов и инструментов для ремонта</span>
+							<div class="header-contacts">
+								<span  class="pink-text">+7 (812) 555-05-55</span>
+								<span  class="blue-text">г.Санкт-Петербург,ул.Б.Конюшенная,д19/8</span>
 					</div>
-					<div class="authorized">
-						<p>
-							<a href="profile-page.html">Равшан Джамшутович</a>
-							<a href="log-out.html"></a>
-						</p>
-						<p>
-							<a href="#">Мои заказы</a>
-							<a href="#">Личный кабинет</a>
-						</p>
+					<div class="user-block">
+					<div  class="auth-user">
+							<a class="name" href="#">Равшан Джамшутович</a>
+							<a class="exit" href="#"></a>
+          </div>
+							<a class="blue-text "href="#">Мои заказы</a>
+							<a class="blue-text "href="#">Личный кабинет</a>         
 					</div>
 				</div>
 				<nav class="header-navigation">
@@ -67,9 +64,9 @@
 						<div class="catalog-top">
 							<span class="catalog-title">Фильтр:</span>
 						</div>
-						<form>
+						<form class="filter">
 							<div class="price-range">
-								<h2>Цена:</h2>
+								<h3 class="filter-title">Цена:</h3>
 								<div class="range-controls">
 									<div class="scale">
 										<div style="width:80%;" class="bar"></div>
@@ -83,8 +80,8 @@
 									<p><input class="min-price" type="text" id="min-price" value="0"><span></span><input class="max-price" type="text" id="max-price" value="30 000"></p>
 								</div>
 							</div>
-							<fieldset class="filter-brands">
-								<h3>Производители:</h3>
+							<fieldset class="filter-block">
+								<h3 class="filter-title">Производители:</h3>
 								<input type="checkbox" name="brand-bosch" id="brand-bosch" value="" checked>
 								<label for="brand-bosch">BOSCH</label>
 								<input type="checkbox" name="brand-interskol" id="brand-interskol" value="">
@@ -96,8 +93,8 @@
 								<input type="checkbox" name="brand-hitachi" id="brand-hitachi" value="">
 								<label for="brand-hitachi">Hitachi</label>
 							</fieldset>
-							<fieldset class="filter-power">
-								<h2>Питание:</h2>
+							<fieldset class="filter-block">
+								<h3 class="filter-title">Питание:</h2>
 								<input type="radio" name="power-supply-type" id="battery-supply" value="" checked>
 								<label for="battery-supply">Аккумуляторные</label>
 								<input type="radio" name="power-supply-type" id="mains-supply" value="">
@@ -223,7 +220,7 @@
 			</div>
 		</div>
 			<div class="catalog-about">
-				<div class="conteiner">
+				<div class="container">
 					<h2>Пара слов об Перфораторах</h2>
 					<p>
 						Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
@@ -243,14 +240,14 @@
 				</div>
 				<div class="footer-right">
 					<div class="footer-navigation">
-						<ul class="footer-nav-1">
+						<ul class="footer-nav">
 							<li><a href="#">Компания</a></li>
 							<li><a href="#">Новости</a></li>
 							<li><a href="#">Каталог</a></li>
 							<li><a href="#">Доставка</a></li>
 							<li><a href="#">Контакты</a></li>
 						</ul>
-						<ul class="footer-nav-2">
+						<ul class="footer-nav yellow">
 							<li><a href="#">Материалы</a></li>
 							<li><a href="#">Техника</a></li>
 							<li><a href="#">Инструмент</a></li>
@@ -277,10 +274,10 @@
 						</div>
 						<p class="footer-feedback">
 							Обратная связь:<br>
-							<a href="#">mail@htmlacademy.ru</a>
+							<a class="yellow" href="#">mail@htmlacademy.ru</a>
 						</p>
 						<p>Разработано:</p>
-						<a class="btn" href="https://htmlacademy.ru">HTML Academy></a>
+						<a class="yellow" href="https://htmlacademy.ru">HTML Academy></a>
 					</div>
 				</div>
 			</div>
