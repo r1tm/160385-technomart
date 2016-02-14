@@ -12,6 +12,7 @@ body {
 	font-family: "PT Sans", Arial, sans-serif;
 }
 
+
 @font-face {
 	font-weight: normal;
 	font-style: normal;
@@ -97,6 +98,7 @@ img {
 	margin: 0;
 }
 
+
 .top-header a{
 	text-decoration: none;
 	color: #ffffff;
@@ -153,7 +155,9 @@ img {
 	text-transform: none;
 }
 
+
 .icon-search {
+
 	position: absolute;
 	display: block;
 	content: "";
@@ -197,6 +201,7 @@ img {
 }
 
 
+
 .inp-search:active {
 	background-color: #293449;
 }
@@ -219,8 +224,6 @@ img {
 .header-btn:active {
 	color: rgba(255,255,255,0.6);
 }
-
-
 
 .bookmarks::before {
 	font-size: 17px;
@@ -247,6 +250,7 @@ img {
 
 .cart::before {
 	position: absolute;
+
 	width: 17px;
 	height: 16px;
 	top: 12px;
@@ -262,6 +266,7 @@ img {
 .icon-basket:hover {
 	opacity: 1;
 }
+
 
 .bookmarks:hover::before,
 .cart:hover::before {
@@ -342,8 +347,7 @@ img {
 	width: 19px;
 	height: 19px;
 	top: 12px;
-	left: 15px;
-	
+	left: 15px;	
 }
 
 .header-contacts p {
@@ -372,6 +376,7 @@ img {
 	text-decoration: none;
 	padding-left: 25px;
 	padding-right: 25px;
+
 }
 
 .user-block .sign-in {
@@ -389,6 +394,7 @@ img {
 }
 
 /*?//////////////////////////////////////*/
+
 .user-block .sign-in::before {
 	position: absolute;
 	content: "";
@@ -509,6 +515,7 @@ img {
 .user-block .user-account:active {
 	color: rgba(50,66,92,0.3);
 }
+
 
 
 
@@ -840,6 +847,7 @@ img {
 	opacity: 1;
 }
 
+
 /*promo*/
 
 
@@ -908,6 +916,7 @@ img {
 .promo-title {
 	position: relative;
 	bottom:5px;
+
 	font-size: 24px;
 	line-height: 30px;
 	color: #fff;
@@ -994,6 +1003,7 @@ img {
 }
 
 .btn {
+
 	padding: 10px 0;
 	color: #fff;
 	background-color: #ee3643;
@@ -1012,6 +1022,7 @@ img {
 }
 
 .btn:active {
+
 	background-color: #ba2732;
 }
 
@@ -1065,10 +1076,13 @@ img {
 	text-transform: uppercase;
 }
 
+
 .section-header .btn {
+
 	width: 243px;
 	float: right;
 }
+
 
 .filter-block {
 	width: 220px;
@@ -1114,6 +1128,7 @@ img {
 
 .catalog-item:nth-child(3n+4){
 	margin-right: 0;
+
 }
 
 
@@ -1125,6 +1140,7 @@ img {
 	height: 88px;
 	padding: 40px 0;
 	background-color: #fff; 
+
 }
 
 .actions .buy,
@@ -1169,7 +1185,6 @@ img {
 }
 
 .catalog-item-image img {
-
 	max-width: 100%;
 }
 
@@ -1178,10 +1193,12 @@ img {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding: 0 25px;
+
 }
 
 
 .catalog-item .discount {
+
 	min-height: 20px;
 	margin-bottom: 10px;
 	text-decoration: line-through;
@@ -1220,11 +1237,15 @@ img {
 
 .brands a:nth-child(4n+4){
 	margin-right: 0;
+
 }
 /*services/////////////////////////////*/
 
 .section-services
+
 {
+
+
 	padding-top: 67px;
 	background-color: #f2f6f8;
 }
@@ -1239,7 +1260,9 @@ img {
 	font-family: "Cuprum";
 	text-transform: uppercase;
 	margin: 0;
+
 	margin-bottom: 35px;
+
 }
 
 .section-text  {
@@ -1385,7 +1408,9 @@ img {
 	background-color: #fb565a;
 }
 
+
 .about-company .btn {
+
 	width: 220px;
 }
 
@@ -1395,16 +1420,19 @@ img {
 }
 
 .contacts img {
+
 	width: 300px;
 	height: 158px;
 	margin-bottom: 40px;
 	margin-top: 36px;
+
 }
 
 .main-header {
 	font-family:Cuprum;
 	background: #f1f5f7;
 }
+
 
 .footer-top {
 	min-height:195px;
@@ -1626,3 +1654,4 @@ img {
 	color:#EE3643;
 	text-decoration:none;
 }
+
