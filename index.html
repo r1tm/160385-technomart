@@ -5,6 +5,7 @@
 	<title>Техномарт</title>
 	<link href="css/normalize.css" type="text/css" rel="stylesheet">
 	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<link href="css/symbols-technomart.css" type="text/css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
@@ -15,9 +16,10 @@
 				<a class="logo" href="#">Техномарт</a>
 				<form action="#" method="get" class="search">
 					<input type="search" class="inp-search" placeholder="Поиск:">
+					<label type="submit" class="icon-search"></label>
 				</form>
-				<a class="header-btn bookmarks" href="#">Закладки: <span>0</span></a>
-				<a class="header-btn cart" href="#">Корзина: <span>0</span></a>
+				<a class="header-btn bookmarks" href="#"><span class="icon-bookmark"></span>Закладки: <span>0</span></a>
+				<a class="header-btn cart" href="#"><span class="icon-basket"></span>Корзина: <span>0</span></a>
 				<a class="header-btn order" href="#">Оформить заказ</a>
 			</div>
 		</div>
@@ -29,12 +31,12 @@
 						и инструментов для ремонта</p>
 					</div>
 					<div class="header-contacts">
-						<span class="phone">+7 (812) 555-05-55</span>
+						<span class="phone icon-phone ">+7 (812) 555-05-55</span>
 						<p>г.Санкт-Петербург,ул.Б.Конюшенная,д19/8</p>
 					</div>
 
 					<div class="user-block">
-						<a class="sign-in" href="#">Войти</a>
+						<a class="sign-in" href="#"><span class="icon-login"></span>Войти</a>
 						<a class="registration" href="#">Регистрация</a>
 					</div>
 					
@@ -55,8 +57,7 @@
 		</header>
 		<div class="promo-content">
 			<div class="container clearfix">
-				<div class="promo-block ">
-					<iv class="promo promo-materials  flag-new">
+					<div class="promo promo-materials  flag-new">
 						<span class="promo-title">Материалы</span>
 						<a class="promo-btn" href="#">На любой вкус</a>
 					</div>
@@ -76,7 +77,7 @@
 						</div>
 						<button class="slider-btn left">Назад</button>
 						<button class="slider-btn right">Вперед</button>
-						<a href="" class="red-btn btn-show-catalog">Открыть каталог</a>
+						<a href="" class="btn btn-show-catalog">Открыть каталог</a>
 					</div>
 					<div class="promo promo-discount">
 						<span class="promo-title">Скидки 50%</span>
@@ -86,14 +87,15 @@
 						<span class="promo-title">Доставка</span>
 						<a class="promo-btn" href="#">Бесплатно</a>
 					</div>
-				</div>
 			</div>
+
 			<section class="section">
 				<div class="container clearfix">
 					<div class="section-header clearfix">
 						<h2 class="section-title">Популярные товары:</h2>
-						<a class="red-btn " href="#">Все популярные товары</a>
+						<a class="btn " href="#">Все популярные товары</a>
 					</div>
+
 					<div class="catalog-items  ">
 
 						<article class="catalog-item">
@@ -154,7 +156,7 @@
 				<div class="container clearfix">
 					<div class="section-header clearfix">
 						<h2 class="section-title">Популярные производители:</h2>
-						<a class="red-btn " href="#">Все производители</a>
+						<a class="btn " href="#">Все производители</a>
 					</div>
 					<div class="brands">
 						<a href="#">
@@ -242,7 +244,7 @@
 				<li>Автотрейдинг</li>
 				<li>ЖелДорЭкспедиция</li>
 			</ul>
-			<a class="red-btn" href="#">Подробнее о компании</a>
+			<a class="btn" href="#">Подробнее о компании</a>
 		</div>
 		<div class="contacts">
 			<h2 class="section-title">Контакты</h2>
@@ -252,7 +254,7 @@
 			
 				<img src="img/map.jpg" width="300" height="158" alt="">
 			
-			<a class="red-btn" href="#">Заблудились? Напишите нам!</a>
+			<a class="btn" href="#">Заблудились? Напишите нам!</a>
 		</div>
 	</div>
 </section>
@@ -303,9 +305,9 @@
 		<div class="footer-right">
 			<div class="footer-socials">
 				<div class="social-btns">
-					<a class="vk-btn" href="#">vk</a>
-					<a class="fb-btn" href="#">fb</a>
-					<a class="ig-btn" href="#">ig</a>
+					<a  href="#"><span class="icon-vk"></span>vk</a>
+					<a  href="#"><span class="icon-facebook"></span>fb</a>
+					<a href="#"><span class="icon-twitter"></span>ig</a>
 				</div>
 			</div>
 			<div class="footer-feedback">	
