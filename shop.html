@@ -19,8 +19,8 @@
 					<label type="submit" class="icon-search"></label>
 				</form>
 				<div class="top-menu">
-					<a class="header-btn bookmarks" href="#"><span class="icon-bookmark"></span>Закладки: <span>0</span></a>
-					<a class="header-btn cart" href="#"><span class="icon-basket"></span>Корзина :<span>10</span></a>
+					<a class="header-btn bookmarks icon-bookmark" href="#">Закладки: <span>0</span></a>
+					<a class="header-btn cart icon-basket" href="#">Корзина :<span>10</span></a>
 					<a class="header-btn order" href="#">Оформить заказ</a>
 				</div>
 			</div>
@@ -37,8 +37,8 @@
 							</div>
 					<div class="user-block ">
 						<div  class="auth-user">
-							<a class="user-name" href="#"><span class="icon-user">Равшан Джамшутович</a>
-							<a class="user-exit" href="#"><span class="icon-logout"></a>
+							<a class="user-name icon-user" href="#">Равшан Джамшутович</a>
+							<a class="user-exit " href="#"><span class="icon-logout"></span></a>
 						</div>
 						<a class="user-orders" href="#">Мои заказы</a>
 						<a class="user-account" href="#">Личный кабинет</a>         
@@ -132,7 +132,7 @@
 									<label for="battery-supply">Аккумуляторные</label>
 									<input type="radio" name="power-supply-type" id="mains-supply" value="">
 									<label for="mains-supply">Сетевые</label>
-									<button class="button" href="#">Показать</button>
+									<button type="button" >Показать</button>
 								</fieldset>
 							</form>
 						
@@ -200,14 +200,26 @@
 							<div class="discount"> </div>
 							<div class="price">12500 Р.</div>
 						</article>
+  <ul class="paginator">
+												<li class="paginator-btn-active">1</li>
+												<li>
+														<a href="#" class="paginator-btn">2</a>
+												</li>
 
+												<li>
+														<a href="#" class="paginator-btn">3</a>
+												</li>
+												<li>
+														<a href="#" class="paginator-btn next-page">Следующая</a>
+												</li>
+										</ul>
 					</section>
 	</div>
 </main>
 		
 				
 				<div class="catalog-information">
-					<div class="wrapper">
+					<div class="container clearfix">
 						<h2 class="section-title">Пара слов об Перфораторах</h2>
 						<p>
 							Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
