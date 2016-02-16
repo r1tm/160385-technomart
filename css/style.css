@@ -542,8 +542,7 @@ img {
 	height: 12px;
 	top: 3px;
 	right: 15px;
-	background: url("../img/sprite.png") no-repeat -2px -657px;
-}
+	}
 
 .breadcrumbs a:hover {
 	text-decoration: underline;
@@ -554,14 +553,13 @@ img {
 	width: 15px;
 	height: 12px;
 	margin-top: 2px;
-	background: url("../img/sprite.png") no-repeat -2px -643px;
 }
 
 .breadcrumbs .current {
 	color: #000;
 }
 
-/*///////////////////////////////////// filter////////////////////////////*/
+/*/////////////FIRLTER////////////////*/
 .filter-block {
 	width: 220px;
 	float: left;
@@ -585,6 +583,7 @@ img {
 }
 
 .filter-group {
+	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
 }
 
@@ -848,7 +847,7 @@ img {
             font-size: 0;
             clear: both;
         }
-
+button[type="button"],
             .paginator li {
                 list-style-type: none;
                 display: inline-block;
@@ -1241,12 +1240,6 @@ img {
 	float: right;
 }
 
-
-.filter-block {
-	width: 220px;
-	float: left;
-}
-
 .content-column-title {            
 	padding: 10px 19px;
 	background-color: #f7f3ec;
@@ -1284,11 +1277,13 @@ img {
 	border: 1px solid #ccc;
 }
 
-.catalog-item:nth-child(3n+4){
+.catalog-items .catalog-item:nth-child(3n+4){
 	margin-right: 0;
 
 }
-
+.catalog .catalog-item:nth-child(3n+1){
+margin-right: 0;
+}
 
 .catalog-item .actions {
 	position: absolute;
@@ -1417,8 +1412,9 @@ img {
 	font-weight: normal;
 	font-family: "Cuprum";
 	text-transform: uppercase;
-	
-
+}
+.catalog-information .section-title  {
+	float:none;
 }
 
 .section-text  {
@@ -1636,7 +1632,7 @@ input[type="radio"] {
 
 
 .footer-left {
-	width:330px;
+	width:340px;
 	float:left;
 
 }
@@ -1677,7 +1673,7 @@ input[type="radio"] {
 }
 
 .footer-right {
-	width:610px;
+	width:600px;
 	float:right;
 }
 
@@ -1764,8 +1760,7 @@ input[type="radio"] {
 }
 .copyright  {
 	width:330px;
-
-	margin-bottom:35px;
+	padding-top: 20px;
 	float:left;
 	font-size: 16px;
 	line-height: 18px;
