@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Перфораторы</title>
 	<link href="css/normalize.css" type="text/css" rel="stylesheet">
-	<link href="css/style-min.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="css/symbols-technomart.css" type="text/css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -73,7 +73,7 @@
 						<span>Фильтр:</span>
 					</div>
 					<form class="filter">
-						<div class="price-range">
+						<div class="price-range filter-group">
 							<h3 class="filter-title">Цена:</h3>
 							<div class="range-controls">
 								<div class="scale">
@@ -90,32 +90,32 @@
 								<input class="max-price" type="text" id="max-price" value="30 000">
 							</div>
 						</div>
-						<div class="filter-group ">
+						<div class="filter-group">
 							<h3 class="filter-title">Производители:</h3>
 							<ul class="filter-list">
 								<li>
-									<input type="checkbox" name="brand-bosch" id="brand-bosch" value="" checked>
+									<input type="checkbox" name="brand" id="brand-bosch" value="brand-bosch" checked>
 									<label for="brand-bosch">BOSCH</label>
 								</li>
 								<li>
-									<input type="checkbox" name="brand-interskol" id="brand-interskol" value="">
+									<input type="checkbox" name="brand" id="brand-interskol" value="brand-interskol">
 									<label for="brand-interskol">Интерскол</label>
 								</li>
 								<li>
-									<input type="checkbox" name="brand-makita" id="brand-makita" value="" checked>
+									<input type="checkbox" name="brand" id="brand-makita" value="brand-makita" checked>
 									<label for="brand-makita">Makita</label>
 								</li>
 								<li>
-									<input type="checkbox" name="brand-dewalt" id="brand-dewalt" value="">
+									<input type="checkbox" name="brand" id="brand-dewalt" value="brand-dewalt">
 									<label for="brand-dewalt">Dewalt</label>
 								</li>
 								<li>
-									<input type="checkbox" name="brand-hitachi" id="brand-hitachi" value="">
+									<input type="checkbox" name="brand" id="brand-hitachi" value="brand-hitachi">
 									<label for="brand-hitachi">Hitachi</label>
 								</li>
 							</ul>
 						</div>
-						<div class="range-filter">
+						<div class="filter-group">
 							<h3 class="filter-title">Питание:</h3>
 							<ul class="filter-list">
 								<li>
@@ -126,8 +126,8 @@
 									<label for="mains-supply">Сетевые</label>
 								</li>
 							</ul>
-							<button type="button" name="Показать" >Показать</button>
 						</div>
+						<button type="button" name="Показать" class="btn btn-white">Показать</button>
 					</form>
 				</div>
 				<section class="catalog">
@@ -251,7 +251,7 @@
 						<div class="price">12500 Р.</div>
 					</article>
 					<ul class="paginator">
-						<li class="paginator-btn-active">1</li>
+						<li class="paginator-btn-active"><span>1</span></li>
 						<li>
 							<a href="#" class="paginator-btn">2</a>
 						</li>
@@ -352,4 +352,3 @@
    <script src="js/script-min.js"></script>
 </body>
 </html>
-

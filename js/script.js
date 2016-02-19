@@ -23,25 +23,29 @@ close.addEventListener("click", function (event) {
     event.preventDefault();
     popup.classList.remove("modal-content-show");
     popup.classList.remove("modal-animation");
+    messagePopup.classList.remove("modal-content-show");
 });
 messageOpen.addEventListener("click", function (event) {
     event.preventDefault();
     messagePopup.classList.add("modal-content-show");
     messagePopup.classList.add("modal-animation");
+
 });
 form.addEventListener("submit", function (event) {
     if (!myName.value||!email.value||!text.value) {
         event.preventDefault();
-        console.log(myName.value);
-        console.log(email.value);
-        console.log(text.value);
-        alert("Нужно заполнить все поля формы!");
-    }
+        messagePopup.classList.remove("modal-error");
+        messagePopup.offsetWidth = popup.offsetWidth;
+        messagePopup.classList.add("modal-error");
+    } else {
+      localStorage.setItem(myName.value, email.value, text.value );
+  }
 })
 messageClose.addEventListener("click", function (event) {
     event.preventDefault();
     messagePopup.classList.remove("modal-content-show");
     messagePopup.classList.remove("modal-animation");
+    messagePopup.classList.remove("modal-content-show");
 });
 mapOpen.addEventListener("click", function (event) {
     event.preventDefault();
