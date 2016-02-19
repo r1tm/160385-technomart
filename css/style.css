@@ -1290,11 +1290,13 @@ a.arrow-down:active::after {
 
 .icon-right {
     right: 30px;
+    cursor: pointer;
 }
 
 .icon-left:hover,
 .icon-right:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 
