@@ -8,112 +8,60 @@ body {
 }
 
 @font-face {
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 
-    font-family: "symbols-technomart";
-    src: url("../fonts/symbols-technomart.woff") format("woff"),
-    url("../fonts/symbols-technomart.woff2") format("woff2");
+  font-family: "symbols-technomart";
+  src: url("../fonts/symbols-technomart.woff") format("woff"),
+       url("../fonts/symbols-technomart.woff2") format("woff2");
 }
 
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
-    display: inline-block;
-    width: 1em;
-    margin-right: 0.2em;
-    margin-left: 0.2em;
-    font-weight: normal;
-    line-height: 1em;
-    font-family: "symbols-technomart";
-    text-align: center;
-    text-transform: none;
-    text-decoration: inherit;
-    font-style: normal;
-    font-variant: normal;
-    speak: none;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+
+  font-weight: normal;
+  line-height: 1em;
+  font-family: "symbols-technomart";
+  text-align: center;
+  text-transform: none;
+  text-decoration: inherit;
+  font-style: normal;
+  font-variant: normal;
+
+  speak: none;
 }
 
-.icon-left::before {
-    content: "\3c";
-} /* "&lt;" */
-.icon-right::before {
-    content: "\3e";
-} /* "&gt;" */
-.icon-right-b::before {
-    content: "\3e";
-} /* "&gt;" */
-.icon-basket::before {
-    content: "\62";
-} /* "b" */
-.icon-facebook::before {
-    content: "\66";
-} /* "f" */
-.icon-twitter::before {
-    content: "\74";
-} /* "t" */
-.icon-vk::before {
-    content: "\76";
-} /* "v" */
-.icon-up::before {
-    content: "\2c4";
-} /* "˄" */
-.icon-down::before {
-    content: "\2c5";
-} /* "˅" */
-.icon-left-big::before {
-    content: "\2190";
-} /* "←" */
-.icon-right-big::before {
-    content: "\2192";
-} /* "→" */
-.icon-login::before {
-    content: "\2386";
-} /* "⎆" */
-.icon-logout::before {
-    content: "\241b";
-} /* "␛" */
-.icon-up-dir::before {
-    content: "\25b2";
-} /* "▲" */
-.icon-down-dir::before {
-    content: "\25bc";
-} /* "▼" */
-.icon-circle::before {
-    content: "\25cb";
-} /* "○" */
-.icon-circle-dot::before {
-    content: "\25cf";
-} /* "●" */
-.icon-star::before {
-    content: "\2605";
-} /* "★" */
-.icon-check-off::before {
-    content: "\2610";
-} /* "☐" */
-.icon-check-on::before {
-    content: "\2611";
-} /* "☑" */
-.icon-youtube::before {
-    content: "\f39e";
-} /* "" */
-.icon-home::before {
-    content: "🏠";
-} /* "\1f3e0" */
-.icon-user::before {
-    content: "👨";
-} /* "\1f468" */
-.icon-phone::before {
-    content: "📞";
-} /* "\1f4de" */
-.icon-instagramm::before {
-    content: "📷";
-} /* "\1f4f7" */
-.icon-search::before {
-    content: "🔍";
-} /* "\1f50d" */
-.icon-bookmark::before {
-    content: "🔖";
-} /* "\1f516" */
+.icon-left::before { content: "\3c"; } /* "&lt;" */
+.icon-right::before { content: "\3e"; } /* "&gt;" */
+.icon-basket::before { content: "\62"; } /* "b" */
+.icon-facebook::before { content: "\66"; } /* "f" */
+.icon-twitter::before { content: "\74"; } /* "t" */
+.icon-vk::before { content: "\76"; } /* "v" */
+.icon-up::before { content: "\2c4"; } /* "˄" */
+.icon-down::before { content: "\2c5"; } /* "˅" */
+.icon-left-big::before { content: "\2190"; } /* "←" */
+.icon-right-big::before { content: "\2192"; } /* "→" */
+.icon-login::before { content: "\2386"; } /* "⎆" */
+.icon-logout::before { content: "\241b"; } /* "␛" */
+.icon-up-dir::before { content: "\25b2"; } /* "▲" */
+.icon-down-dir::before { content: "\25bc"; } /* "▼" */
+.icon-circle::before { content: "\25cb"; } /* "○" */
+.icon-circle-dot::before { content: "\25cf"; } /* "●" */
+.icon-star::before { content: "\2605"; } /* "★" */
+.icon-check-off::before { content: "\2610"; } /* "☐" */
+.icon-check-on::before { content: "\2611"; } /* "☑" */
+.icon-youtube::before { content: "\f39e"; } /* "" */
+.icon-home::before { content: "🏠"; } /* "\1f3e0" */
+.icon-user::before { content: "👨"; } /* "\1f468" */
+.icon-phone::before { content: "📞"; } /* "\1f4de" */
+.icon-instagramm::before { content: "📷"; } /* "\1f4f7" */
+.icon-search::before { content: "🔍"; } /* "\1f50d" */
+.icon-bookmark::before { content: "🔖"; } /* "\1f516" */
+
 
 .clearfix::after {
     content: "";
@@ -271,28 +219,28 @@ img {
 }
 
 .bookmarks::before,
-                                                                                                            .cart::before {
+.cart::before {
     opacity: 0.3;
     padding-right: 12px;
 }
 
 .bookmarks:hover::before,
-                                                                                                            .cart:hover::before {
+  .cart:hover::before {
     opacity: 1;
 }
 
 .bookmarks:hover,
-                                                                                                            .cart:hover {
+   .cart:hover {
     background-color: #212a3a;
 }
 
 .bookmarks:active::before,
-                                                                                                            .cart:active::before {
+  .cart:active::before {
     opacity: 0.5;
 }
 
 .bookmarks:active,
-                                                                                                            .cart:active {
+ .cart:active {
     background-color: #161d29;
 }
 
@@ -317,7 +265,7 @@ img {
     background-color: #799970;
 }
 
-                                                                                                            /*--------------header-bottom---------------*/
+ /*--------------header-bottom---------------*/
 
 .header-bottom {
     padding-top: 46px;
@@ -416,15 +364,15 @@ img {
 }
 
 .icon-logout::before, 
-                                                                                                            .icon-user::before, 
-                                                                                                            .icon-login::before {
+.icon-user::before, 
+.icon-login::before {
     color: #32425C;
     opacity: 0.3;
 }
 
 .icon-logout:hover::before, 
-                                                                                                            .icon-user:hover::before, 
-                                                                                                            .icon-login:hover::before {
+   .icon-user:hover::before, 
+    .icon-login:hover::before {
     opacity: 1;
 }
 
@@ -441,12 +389,12 @@ img {
 }
 
 .user-block .sign-in:hover,
-                                                                                                            .user-block .registration:hover {
+.user-block .registration:hover {
     color: #ee3643;
 }
 
 .user-block .sign-in:active,
-                                                                                                            .user-block .registration:active {
+   .user-block .registration:active {
     color: rgba(0,0,0,0.3);
 }
 
@@ -483,18 +431,18 @@ img {
 }
 
 .auth-user:hover::before,
-                                                                                                            .user-block .user-exit:hover {
+   .user-block .user-exit:hover {
     opacity: 1;
 }
 
 .auth-user:active::before,
-                                                                                                            .user-block .user-exit:active,
-                                                                                                            .user-block .user-name:active {
+ .user-block .user-exit:active,
+  .user-block .user-name:active {
     opacity: 0.3;
 }
 
 .user-block .user-orders,
-                                                                                                            .user-block .user-account {
+.user-block .user-account {
     font-size: 16px;
     line-height: 21px;
     color: #32425c;
@@ -524,12 +472,12 @@ img {
 }
 
 .user-block .user-orders:hover,
-                                                                                                            .user-block .user-account:hover {
+.user-block .user-account:hover {
     color: #ee3643;
 }
 
 .user-block .sign-in:active,
-                                                                                                            .user-block .registration:active {
+ .user-block .registration:active {
     color: rgba(0,0,0,0.3);
 }
 
@@ -556,18 +504,18 @@ img {
 }
 
 .auth-user:hover::before,
-                                                                                                            .user-block .user-exit:hover {
+.user-block .user-exit:hover {
     opacity: 1;
 }
 
 .auth-user:active::before,
-                                                                                                            .user-block .user-exit:active,
-                                                                                                            .user-block .user-name:active {
+.user-block .user-exit:active,
+.user-block .user-name:active {
     opacity: 0.3;
 }
 
 .user-block .user-orders,
-                                                                                                            .user-block .user-account {
+    .user-block .user-account {
     font-size: 16px;
     line-height: 21px;
     color: #32425c;
@@ -597,12 +545,12 @@ img {
 }
 
 .user-block .user-orders:hover,
-                                                                                                            .user-block .user-account:hover {
+.user-block .user-account:hover {
     color: #ee3643;
 }
 
 .user-block .user-orders:active,
-                                                                                                            .user-block .user-account:active {
+ .user-block .user-account:active {
     color: rgba(50,66,92,0.3);
 }
 
@@ -647,7 +595,7 @@ img {
     background-color: #1d2739;
 }
 
-                                                                                                            /*----------breadcrumbs--------------*/
+    /*----------breadcrumbs--------------*/
 
 .breadcrumbs {
     list-style: none;
@@ -710,8 +658,7 @@ img {
     right: 0px;
     padding: 0;
 }
-
-                                                                                                            /*--------FIRLTER--------------*/
+  /*--------FIRLTER--------------*/
 
 .filter-block {
     width: 220px;
@@ -853,7 +800,7 @@ img {
 }
 
 .filter-list input[type=checkbox],
-                                                                                                        .filter-list input[type=radio] {
+  .filter-list input[type=radio] {
     display: none;
 }
 
@@ -1015,8 +962,7 @@ a.arrow-down:hover::after {
 a.arrow-down:active::after {
     border-color: #EE3643 transparent transparent;
 }
-
-                                                                                                        /*-------------shop----------*/
+   /*-------------shop----------*/
 
 .item {
     display: inline-block;
@@ -1061,7 +1007,7 @@ a.arrow-down:active::after {
 }
 
 .item:hover .item-image,
-                                                                                                        .item:hover .item-image img {
+.item:hover .item-image img {
     display: none;
 }
 
@@ -1083,7 +1029,7 @@ a.arrow-down:active::after {
 }
 
 .paginator a,
-                                                                                                        .paginator span {
+  .paginator span {
     display: inline-block;
     color: #000;
     background-color: #fff;
@@ -1610,7 +1556,7 @@ a.arrow-down:active::after {
     width: 0;
     height: 0;
     content: '';
-    border: 21px solid #fff;
+    border: 20px solid #fff;
     border-left-color: #ee3643;
 }
 
