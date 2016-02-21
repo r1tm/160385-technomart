@@ -4,7 +4,7 @@ body {
     line-height: 18px;
     color: #000;
     font-weight: normal;
-    font-family: "Cuprum", Arial, sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
 }
 
 @font-face {
@@ -40,6 +40,7 @@ body {
 .icon-basket::before { content: "\62"; } /* "b" */
 .icon-facebook::before { content: "\66"; } /* "f" */
 .icon-twitter::before { content: "\74"; } /* "t" */
+.icon-right-b::before { content: "\3e";} /* "&gt;" */
 .icon-vk::before { content: "\76"; } /* "v" */
 .icon-up::before { content: "\2c4"; } /* "˄" */
 .icon-down::before { content: "\2c5"; } /* "˅" */
@@ -83,7 +84,7 @@ img {
 
 .main-header {
     min-width: 960px;
-    font-family: Cuprum;
+    font-family: "Cuprum","Arial", sans-serif;
     background: #f1f5f7;
 }
 
@@ -611,7 +612,7 @@ img {
     font-size: 13px;
     line-height: 18px;
     font-weight: bold;
-    font-family: "PT Sans";
+    font-family:"PT Sans","Arial", sans-serif;
     float: left;
 }
 
@@ -674,7 +675,7 @@ img {
 .content-column-title span {
     display: block;
     float: left;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     margin: 0;
@@ -696,7 +697,7 @@ img {
 }
 
 .filter-title {
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     font-size: 17px;
     line-height: 30px;
     color: #000;
@@ -769,7 +770,7 @@ img {
     display: block;
     float: left;
     padding: 10px 0;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     font-size: 16px;
     line-height: 18px;
     color: #444444;
@@ -782,7 +783,7 @@ img {
 
 .filter-list {
     list-style: none;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #000;
@@ -813,8 +814,9 @@ img {
     line-height: 20px;
     color: #000;
     font-weight: normal;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     text-transform: uppercase;
+    cursor:pointer;
 }
 
 .filter-list input[type=checkbox] + label::before {
@@ -824,7 +826,7 @@ img {
     left: 0;
     width: 23px;
     height: 23px;
-    font-family: " symbols-technomart";
+    font-family: " symbols-technomart","Arial", sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -890,7 +892,7 @@ img {
     line-height: 18px;
     margin-left: 60px;
     font-weight: normal;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
@@ -909,7 +911,7 @@ img {
     font-size: 13px;
     line-height: 18px;
     font-weight: normal;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     color: #ee3643;
@@ -1074,7 +1076,7 @@ a.arrow-down:active::after {
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
 }
 
 .promo-machinery {
@@ -1174,7 +1176,7 @@ a.arrow-down:active::after {
     font-size: 36px;
     line-height: 36px;
     font-weight: bold;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
     text-transform: uppercase;
     color: #fff;
     margin: 0;
@@ -1185,7 +1187,7 @@ a.arrow-down:active::after {
     line-height: 24px;
     color: #fff;
     font-weight: normal;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
 }
 
 .btn {
@@ -1230,7 +1232,7 @@ a.arrow-down:active::after {
 }
 
 .icon-left,
-                                                                                                        .icon-right {
+    .icon-right {
     position: absolute;
     top: 114px;
     display: block;
@@ -1249,7 +1251,7 @@ a.arrow-down:active::after {
 }
 
 .icon-left:hover,
-                                                                                                        .icon-right:hover {
+.icon-right:hover {
     opacity: 1;
     cursor: pointer;
 }
@@ -1342,11 +1344,11 @@ a.arrow-down:active::after {
 }
 
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
-                                                                                                        #btn-2:checked ~ .slider-controls label[for="btn-2"] {
+   #btn-2:checked ~ .slider-controls label[for="btn-2"] {
     background: #ee3643
 }
 
-                                                                                                        /*----------section----------*/
+  /*----------section----------*/
 
 .section:last-child {
     margin-bottom: 85px;
@@ -1440,7 +1442,7 @@ a.arrow-down:active::after {
 
 .actions .buy,
     .actions .bookmark {
-    font-family: 'Cuprum', 'Arial', sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 14px;
     display: block;
     width: 135px;
@@ -1602,7 +1604,7 @@ a.arrow-down:active::after {
     line-height: 30px;
     color: #32425c;
     font-weight: bold;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
     text-transform: uppercase;
 }
 
@@ -1611,7 +1613,7 @@ a.arrow-down:active::after {
     line-height: 24px;
     color: #000;
     font-weight: normal;
-    font-family: "PT Sans";
+    font-family: "PT Sans","Arial", sans-serif;
 }
 
 .contacts img {
@@ -1652,7 +1654,7 @@ a.arrow-down:active::after {
 
 .services-slide .title {
     color: #32425C;
-    font-family: 'Cuprum';
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 36px;
     font-weight: 40;
     line-height: 30px;
@@ -1663,7 +1665,7 @@ a.arrow-down:active::after {
 
 .services-slide .details {
     color: #000000;
-    font-family: 'PT Sans';
+    font-family:" PT Sans","Arial", sans-serif;
     font-size: 13px;
     font-weight: 40;
     line-height: 24px;
@@ -1714,7 +1716,7 @@ input[type="radio"] {
     border-top-width: 1px;
     color: #FFFFFF;
     display: block;
-    font-family: Cuprum, Arial, sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 21px;
     font-weight: 700;
     line-height: 30px;
@@ -1798,7 +1800,7 @@ input[type="radio"] {
     line-height: 20px;
     color: #000;
     font-weight: normal;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
     list-style-type: none;
     padding-left: 36px;
     margin-bottom: 20px;
@@ -1854,7 +1856,7 @@ input[type="radio"] {
     float: left;
     padding-top: 10px;
     text-align: center;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
@@ -1921,7 +1923,7 @@ input[type="radio"] {
     line-height: 24px;
     color: #f1f5f7;
     font-weight: normal;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
     text-decoration: none;
 }
 
@@ -1962,7 +1964,7 @@ input[type="radio"] {
     line-height: 24px;
     color: #ffd180;
     font-weight: normal;
-    font-family: "Cuprum";
+    font-family: "Cuprum","Arial", sans-serif;
     text-decoration: none;
 }
 
@@ -2127,6 +2129,9 @@ input[type="radio"] {
 .pop-up-wrapper {
     margin: 37px 80px;
 }
+.pop-up-wrapper {
+    margin: 37px 80px;
+}
 
 .write-us-column-left {
     float: left;
@@ -2135,6 +2140,9 @@ input[type="radio"] {
 
 .write-us-column-right {
     float: right;
+    width: 220px;
+}
+.write-us-column {
     width: 220px;
 }
 
@@ -2155,7 +2163,7 @@ input[type="radio"] {
     margin-bottom: 10px;
     border: 2px solid #d7dcde;
     border-radius: 3px;
-    font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans","Arial", sans-serif;
     box-sizing: border-box;
 }
 
@@ -2168,12 +2176,15 @@ input[type="radio"] {
     border-radius: 3px;
     box-sizing: border-box;
     resize: none;
-    font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans","Arial", sans-serif;
 }
 
 .btn-field {
     padding: 37px 75px;
     background-color: #f1f1f1;
+}
+.no-js {
+    padding: 37px 75px;
 }
 
 .pop-up .btn {
